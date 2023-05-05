@@ -1,8 +1,8 @@
 import "./HeaderTitle.css";
 
-const HeadereTitle = () => {
+const HeaderTitle = () => {
     return <h1>Hello World!</h1>
 
 
 };
-export default HeadereTitle;
+export default HeaderTitle;
