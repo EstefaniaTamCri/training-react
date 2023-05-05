@@ -1,11 +1,7 @@
 import Wrapper from "./components/Box";
 
 const Welcome = (props) => {
-  return (
-    <h1>
-      Hello, {`${props.name} ${props.lastname || ""}`}
-    </h1>
-  );
+  return <h1>Hello, {`${props.name} ${props.lastname || ""}`}</h1>;
 };
 
 const App = () => {
