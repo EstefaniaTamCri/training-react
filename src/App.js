@@ -1,21 +1,20 @@
-import Wrapper from "./components/Box";
+import Character from "./components/Character/Character.js";
+import resistance from "./db/db.json";
 
-const Welcome = (props) => {
-  return <h1>Hello, {`${props.name} ${props.lastname || ""}`}</h1>;
-};
-
-const App = () => {
+const App = (props) => {
   return (
-    <div>
-      <Wrapper>
-        <Welcome name="Sarah" lastname="Connor" />
-        <Welcome name="John" />
-      </Wrapper>
-      <Wrapper>
-        <Welcome name="World" />
-      </Wrapper>
-    </div>
+    <>
+      {resistance.map((character) => {
+        return (
+          <Character
+            name={character.name}
+            age={character.age}
+            role={character.role}
+            enemy={character.enemy}
+          />
+        );
+      })}
+    </>
   );
 };
-
 export default App;
