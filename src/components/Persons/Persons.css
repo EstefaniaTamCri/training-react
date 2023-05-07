@@ -1,0 +1,9 @@
+.persons{
+    width: 90%;
+    margin: 1em auto;
+    border-radius: 0.5rem;
+    color: var(--white);
+    background-color: var(--dark);
+    padding: 1rem;
+  }
+  

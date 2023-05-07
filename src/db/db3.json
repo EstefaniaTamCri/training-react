@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Javier",
+      "age": "23",
+      "role": "Student",
+      "job": "Dentist"
+  },
+  {
+      "name": "Lorena",
+      "age": "39",
+      "role": "John's mother",
+      "job": "Police woman"
+  },
+  {
+      "name": "Rosa",
+      "age": "35",
+      "role": "Soldier",
+      "job": "Cooker"
+    }
+  ]
