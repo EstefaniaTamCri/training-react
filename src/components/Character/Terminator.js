@@ -1,12 +1,13 @@
+import resistance from "../../db/resistance.json";
 import Character from "./Character.js";
-import resistance from "../../db/db.json";
 
-const App = (props) => {
+const Terminator = () => {
   return (
     <>
-      {resistance.map((character) => {
+      {resistance.map((character, index) => {
         return (
           <Character
+            key={index}
             name={character.name}
             age={character.age}
             role={character.role}
@@ -17,4 +18,4 @@ const App = (props) => {
     </>
   );
 };
-export default App;
+export default Terminator;
