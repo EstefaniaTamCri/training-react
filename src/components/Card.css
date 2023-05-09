@@ -1,0 +1,58 @@
+.Card{
+    width: 90%;
+    height: 200%;
+    border-radius: 0.3rem;
+    background-size: cover;
+    /* background-position: center; */
+    margin: 2em auto;
+    box-shadow: 0 0 0 2px #ccc;
+}
+.card:hover{
+    box-shadow: 0 0 0 2px #333;
+}
+.first{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.img{
+    padding-top: 5em;
+    margin-left: 10em;
+    width: 25%;
+    border-radius: 50%;
+    /* background-size: cover; */
+    /* background-position: center; */
+    
+}
+.hire{
+    display: flex;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    font-size: 1.5em;
+    
+}
+.dolar{
+    color: #56bb4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+button{
+    margin-left: 2em;
+    width: 6em;
+    height: 2em;
+    border-radius: 3em;
+    border: none;
+    background-color: #2dced4;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.rating{
+    display: flex;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: 1.6em;
+}
+.rating span{
+    color: #fdbd45;
+}

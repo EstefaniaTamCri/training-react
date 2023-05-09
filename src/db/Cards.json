@@ -1,0 +1,86 @@
+[
+    {
+      "nombre": "Mr. Juan",
+      "puesto": "Desarrollador web",
+      "sueldoHora": 25,
+      "reviews": "(25 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. María",
+      "puesto": "Diseñador web",
+      "sueldoHora": 20,
+      "reviews": "(98 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mr. Carlos",
+      "puesto": "Desarrollador web",
+      "sueldoHora": 30,
+      "reviews": "(45 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Ana",
+      "puesto": "Diseñador web",
+      "sueldoHora": 22,
+      "reviews": "(86 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mr. Luis",
+      "puesto": "Desarrollador web",
+      "sueldoHora": 28,
+      "reviews": "(74 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Marta",
+      "puesto": "Diseñador web",
+      "sueldoHora": 23,
+      "reviews": "(85 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Jorge",
+      "puesto": "Desarrollador web",
+      "sueldoHora": 32,
+      "reviews": "(66 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Laura",
+      "puesto": "Diseñador web",
+      "sueldoHora": 25,
+      "reviews": "(90 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Antonio",
+      "puesto": "Desarrollador web",
+      "sueldoHora": 26,
+      "reviews": "(75 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Patricia",
+      "puesto": "Diseñador web",
+      "sueldoHora": 24,
+      "reviews": "(80 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mr. Pedro",
+      "puesto": "Desarrollador web",
+      "sueldoHora": 27,
+      "reviews": "(65 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    },
+    {
+      "nombre": "Mrs. Sofia",
+      "puesto": "Diseñador web",
+      "sueldoHora": 21,
+      "reviews": "(86 rewiews)",
+      "url": "https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg"
+    }
+  ]
