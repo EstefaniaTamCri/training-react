@@ -1,15 +1,18 @@
-import Avengers from "./components/User/Avengers";
-import Terminator from "./components/Character/Terminator";
-import Split from "./components/Wrapper/SplitPane";
-import Cards from "./components/Cards/Cards";
+import Member from "./components/Members/Member";
+import membersList from "./db/members.json";
 
 const App = () => {
+  const filteredList = membersList.filter(
+    (member) => member.id.slice(-1) < 5 && member.first_name.startsWith("M")
+  );
   return (
     <>
-      <Split left={<Terminator />} right={<Avengers />} />
-      {}
-      {/* <Cards /> */}
+      <h1>Members</h1>
+      <ul>
+        <Member members={filteredList} />
+      </ul>
     </>
   );
 };
+
 export default App;
