@@ -1,15 +1,10 @@
-import "./App.css"
-import Title from "./components/HeaderTitle"
-import Paragraph from "./components/FillerParagraph"
+import "./App.css";
+import Contador from "./components/Contador";
 
 const App = () => {
   return (
     <div className="main">
-      <Title />
-      <Paragraph />
-      <Paragraph />
-      <Paragraph />
-
+      <Contador />
     </div>
   );
 };
