@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Nasa.css";
+import "./Rocket.css";
 
 // const Nasa = () => {
 //   const [time, setTime] = useState(10);
@@ -30,7 +30,7 @@ import "./Nasa.css";
 //   );
 // };
 
-function Nasa() {
+function Rocket() {
     const [count, setCount] = useState(10);
     const [running, setRunning] = useState(false);
     
@@ -42,7 +42,7 @@ function Nasa() {
         } else {
             setRunning(true);
         }
-    });
+    }, [count]);
     
     return (
         <div>
@@ -59,4 +59,4 @@ function Nasa() {
       </div>
     );
 }
-export default Nasa;
+export default Rocket;

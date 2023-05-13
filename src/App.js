@@ -3,7 +3,7 @@ import "./App.css";
 // import Character from "./components/Character";
 // import Timer from "./components/Timer";
 // import Greetings from "./components/Greetings";
-import Nasa from "./components/Nasa";
+import Rocket from "./components/Rocket";
 const App = () => {
   return (
     <div className="main">
@@ -11,7 +11,7 @@ const App = () => {
        {/* <Character /> */}
       {/* <Timer /> */}
       {/* <Greetings name="John"/> */}
-      <Nasa />
+      <Rocket />
     </div>
   );
 };
