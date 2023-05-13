@@ -1,58 +1,111 @@
-.Card{
-    width: 90%;
-    height: 200%;
-    border-radius: 0.3rem;
-    background-size: cover;
-    /* background-position: center; */
-    margin: 2em auto;
-    box-shadow: 0 0 0 2px #ccc;
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-.card:hover{
-    box-shadow: 0 0 0 2px #333;
+.Card {
+  width: 90%;
+  height: 200%;
+  border-radius: 0.3rem;
+  background-size: cover;
+  margin: 2em auto;
+  box-shadow: 0 0 0 0.5px #ccc;
+  @media screen and (min-width: 820px) {
+    width: 45%;
 }
-.first{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    
+  }
+
+.card:hover {
+  box-shadow: 0 0 0 2px #333;
 }
-.img{
-    padding-top: 5em;
-    margin-left: 10em;
-    width: 25%;
+.first {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.first p {
+  font-size: 1em;
+}
+.first p.job {
+  font-weight: 300;
+}
+.img {
+  padding-top: 3em;
+  margin-left: 7em;
+  width: 30%;
+  border-radius: 50%;
+}
+.hire {
+  display: flex;
+  margin-left: 1.5em;
+  margin-top: 2.5em;
+  font-size: 0.8em;
+}
+.rate {
+  color: #56bb4d;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+button {
+  margin-left: 8em;
+  width: 7em;
+  height: 2.3em;
+  border-radius: 3em;
+  border: none;
+  background-color: #2dced4;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.rating {
+  display: flex;
+  margin-left: 1.3em;
+  margin-top: 1.8em;
+  font-size: 1.1em;
+}
+.square {
+  color: white;
+  background-color: #fdbd45;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin-top: -0.2em;
+}
+.icons {
+  display: flex;
+  margin-left: 0.9em;
+  margin-top: 0.8em;
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.container{
+    display:flex;
+}
+.name-verified {
+  font-size: 0.5em;
+  color: white;
+  background-color: #8cc986;
+  height: 15px;
+  width: 50px;
+  position: relative;
+  margin-left: -0.2em;
+  margin-top: 0.2em;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.1rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.dolar, .envelope, .adress, .phone {
+    font-size: 0.7em;
+    border: #8cc986 solid 1px;
     border-radius: 50%;
-    /* background-size: cover; */
-    /* background-position: center; */
-    
+    /* width: 10%; */
+    text-align: center;
+    padding: 0.3em 0.6em;
 }
-.hire{
-    display: flex;
-    margin-left: 1.5em;
-    margin-top: 2em;
-    font-size: 1.5em;
-    
+.envelope, .adress, .phone {
+    padding: 0.3em 0.45em;
 }
-.dolar{
-    color: #56bb4d;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-button{
-    margin-left: 2em;
-    width: 6em;
-    height: 2em;
-    border-radius: 3em;
-    border: none;
-    background-color: #2dced4;
-    color: white;
-    font-size: 1.2em;
-    cursor: pointer;
-}
-.rating{
-    display: flex;
-    margin-left: 2em;
-    margin-top: 2em;
-    font-size: 1.6em;
-}
-.rating span{
-    color: #fdbd45;
+.adress, .phone{
+    border: #bcbcbc solid 1px;
+
 }
