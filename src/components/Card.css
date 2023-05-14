@@ -1,24 +1,23 @@
 .main{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.Card {
-  width: 90%;
-  height: 200%;
-  border-radius: 0.3rem;
-  background-size: cover;
-  margin: 2em auto;
-  box-shadow: 0 0 0 0.5px #ccc;
-  @media screen and (min-width: 820px) {
-    width: 45%;
+    /* width: 100%; */
+    display: flex; 
+   }
+  .Card {
+    width: 90%;
+    height: 200%;
+    border-radius: 0.3rem;
+    /* background-size: cover; */
+    margin: 1em auto;
+    border: 0.5px solid #ccc;
+    @media screen and (min-width: 819px) {
+      width: 45%;
 }
     
   }
 
-.card:hover {
+/* .card:hover {
   box-shadow: 0 0 0 2px #333;
-}
+} */
 .first {
   justify-content: center;
   text-align: center;
