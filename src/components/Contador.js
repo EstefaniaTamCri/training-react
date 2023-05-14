@@ -17,8 +17,8 @@ const Contador = () => {
     <>
       <h1>Rendering {contador} times!</h1>
       <button onClick={handleContadorSuma}>Suma 1!</button>
-      <button onClick={handleContadorMultiplica}>Multiplica!</button>
-      <button onClick={handleContadorResta}>Resta!</button>
+      <button onClick={handleContadorMultiplica}>Multiplica por 5!</button>
+      <button onClick={handleContadorResta}>Resta 1!</button>
     </>
   );
 };
