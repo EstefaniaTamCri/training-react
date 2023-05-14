@@ -1,6 +1,12 @@
-import Cards from "./components/Card";
+// import Cards from "./components/Cards/Card";
+import Dogs from "./components/Dogs/Dogs";
 
 const App = () => {
-  return <>{<Cards />}</>;
+  return (
+    <>
+      {/* <Cards /> */}
+      <Dogs />;
+    </>
+  );
 };
 export default App;

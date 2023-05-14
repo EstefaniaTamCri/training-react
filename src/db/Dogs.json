@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Golden Retriever",
+    "estatura": "de 51 a 61 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0105_golden_retriever.webp?itok=5GeVvNCe",
+    "actividad": "deportes acuáticos, caza y asistencia para personas con discapacidad"
+  },
+  {
+    "nombre": "Chihuahua",
+    "estatura": "de 15 a 23 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0139_chihuahua_smooth.webp?itok=GbvvvlYn",
+    "actividad": "actividades en interiores, como dormir y jugar"
+  },
+  {
+    "nombre": "Dálmata",
+    "estatura": "de 56 a 61 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0126_dalmatian.webp?itok=EjJ_R3kz",
+    "actividad": "correr, jugar y hacer ejercicio"
+  },
+  {
+    "nombre": "Pastor Alemán",
+    "estatura": "de 60 a 65 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0111_german_shepherd.webp?itok=v2UqrOJx",
+    "actividad": "trabajo, obediencia, pastoreo, rescate y búsqueda"
+  },
+  {
+    "nombre": "Pug",
+    "estatura": "de 25 a 30 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0046_pug.webp?itok=74CJpfk3",
+    "actividad": "actividades en interiores, como dormir y jugar"
+  },
+  {
+    "nombre": "Bulldog Francés",
+    "estatura": "de 28 a 33 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0113_french_bulldog.webp?itok=BGeN1Rx-",
+    "actividad": "actividades en interiores, como dormir y jugar"
+  },
+  {
+    "nombre": "Labrador Retriever",
+    "estatura": "de 55 a 62 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0040_retriever_labrador.webp?itok=G1UM8hoJ",
+    "actividad": "caza, deportes acuáticos, búsqueda y rescate"
+  },
+  {
+    "nombre": "Beagle",
+    "estatura": "de 33 a 41 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0171_beagle.webp?itok=UdfQsYI8",
+    "actividad": "caza, búsqueda y actividades al aire libre"
+  },
+  {
+    "nombre": "Poodle",
+    "estatura": "de 24 a 28 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0050_poodle_toy.webp?itok=7Y1anr9w",
+    "actividad": "trabajo, obediencia, caza, deportes acuáticos y compañía"
+  },
+  {
+    "nombre": "Bulldog Inglés",
+    "estatura": "de 30 a 40 cm",
+    "imagen": "https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0147_Bulldog.webp?itok=h_E_PBof",
+    "actividad": "actividades en interiores, como dormir y jugar"
+  }
+]

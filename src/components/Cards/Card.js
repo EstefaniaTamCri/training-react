@@ -1,5 +1,5 @@
 import "./Card.css";
-import cards from "../db/Cards.json";
+import cards from "../../db/Cards.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faStar,
