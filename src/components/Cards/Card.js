@@ -18,11 +18,11 @@ const Cards = () => {
             <img className="img" src={card.url} alt="" />
             <span className="point"></span>
             <p>{card.nombre}</p>
-            <p className="job">{card.puesto}</p>
+            <p className="job" key={index}>{card.puesto}</p>
           </div>
           <div className="hire">
             <div>
-              Rate: <span className="rate">${card.sueldoHora}/hr</span>
+              Rate: <span className="rate" key={index}>${card.sueldoHora}/hr</span>
             </div>
             <button>Hire Me</button>
           </div>
@@ -40,7 +40,7 @@ const Cards = () => {
               <FontAwesomeIcon icon={faStar} style={{ color: "#fdbd45" }} />
             </span>
             &nbsp;&nbsp;
-            <span>{card.reviews}</span>
+            <span key={index}>{card.reviews}</span>
           </div>
           <div className="icons">
             <div className="container">

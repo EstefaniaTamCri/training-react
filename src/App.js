@@ -1,13 +1,13 @@
-// import Cards from "./components/Cards/Card";
-import Dogs from "./components/Dogs/Dogs";
-
+import Cards from "./components/Cards/Card";
+// import Dogs from "./components/Dogs/Dogs";
+import Wrapper from "./components/Wrapper/Wrapper";
 const App = () => {
   return (
     <>
-      <div className="cards-container">
-        {/* <Cards /> */}
-        <Dogs />;
-      </div>
+      <Wrapper >
+      {/* <Dogs /> */}
+        <Cards />
+      </Wrapper>
     </>
   );
 };
