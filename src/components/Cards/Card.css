@@ -33,7 +33,7 @@
   width: 30%;
   border-radius: 50%;
 }
-.point {
+/* .point {
   background-color: #1cdb1c;
   position: absolute;
   display: inline-block;
@@ -41,17 +41,13 @@
   border: 2px solid #fff;
   font-size: 1.2em;
   padding: 0.3em;
-  top: 145px;
-  right: 165px;
   @media screen and (min-width: 768px) {
-    top: 150px;
-    right: 180px;
+    margin-left: 0.7em;
   }
   @media screen and (min-width: 992px) {
-    top: 150px;
-    right: 215px;
+    
   }
-}
+} */
 .hire {
   display: flex;
   margin-left: 1.5em;
