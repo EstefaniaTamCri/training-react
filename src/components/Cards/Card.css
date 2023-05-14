@@ -1,19 +1,11 @@
-.main{
-    /* width: 100%; */
-    display: flex; 
-   }
-  .Card {
-    width: 90%;
-    height: 200%;
-    border-radius: 0.3rem;
-    /* background-size: cover; */
-    margin: 1em auto;
-    border: 0.5px solid #ccc;
-    @media screen and (min-width: 819px) {
-      width: 45%;
+.Card {
+  width: 90%;
+  height: 200%;
+  border-radius: 0.3rem;
+  /* background-size: cover; */
+  margin: 1em auto;
+  border: 0.5px solid #ccc;
 }
-    
-  }
 
 /* .card:hover {
   box-shadow: 0 0 0 2px #333;
@@ -34,6 +26,15 @@
   margin-left: 7em;
   width: 30%;
   border-radius: 50%;
+}
+.point {
+  background-color: #56bb4d;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 1.2em;
+  padding: 0.3em;
+  margin-top: -1.3em;
+  margin-left: 0.9em;
 }
 .hire {
   display: flex;
@@ -77,8 +78,8 @@ button {
   padding-bottom: 2em;
   font-size: 1.5em;
 }
-.container{
-    display:flex;
+.container {
+  display: flex;
 }
 .name-verified {
   font-size: 0.5em;
@@ -93,18 +94,23 @@ button {
   border-top-left-radius: 0.1rem;
   border-bottom-right-radius: 0.5rem;
 }
-.dolar, .envelope, .adress, .phone {
-    font-size: 0.7em;
-    border: #8cc986 solid 1px;
-    border-radius: 50%;
-    /* width: 10%; */
-    text-align: center;
-    padding: 0.3em 0.6em;
+.dolar,
+.envelope,
+.adress,
+.phone {
+  font-size: 0.7em;
+  border: #8cc986 solid 1px;
+  border-radius: 50%;
+  /* width: 10%; */
+  text-align: center;
+  padding: 0.3em 0.6em;
 }
-.envelope, .adress, .phone {
-    padding: 0.3em 0.45em;
+.envelope,
+.adress,
+.phone {
+  padding: 0.3em 0.45em;
 }
-.adress, .phone{
-    border: #bcbcbc solid 1px;
-
+.adress,
+.phone {
+  border: #bcbcbc solid 1px;
 }

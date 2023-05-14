@@ -4,8 +4,10 @@ import Dogs from "./components/Dogs/Dogs";
 const App = () => {
   return (
     <>
-      {/* <Cards /> */}
-      <Dogs />;
+      <div className="cards-container">
+        {/* <Cards /> */}
+        <Dogs />;
+      </div>
     </>
   );
 };

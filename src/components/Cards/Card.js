@@ -13,11 +13,10 @@ const Cards = () => {
   return cards.map((card, index) => {
     return (
       <>
-      <div className="main">
         <div className="Card" key={index}>
           <div className="first">
             <img className="img" src={card.url} alt="" />
-            <span></span>
+            <span className="point"></span>
             <p>{card.nombre}</p>
             <p className="job">{card.puesto}</p>
           </div>
@@ -71,7 +70,6 @@ const Cards = () => {
           <FontAwesomeIcon icon={faPhoneFlip} style={{color: "#bcbcbc",}} />
           </span>
           </div>
-        </div>
         </div>
       </>
     );
