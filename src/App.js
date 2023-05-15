@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import db from "./db/db.json";
-// import Expenses from "./components/Expenses/Expenses";
+import Expenses from "./components/Expenses";
 import InputExpenses from "./components/InputExpenses";
 
 const App = () => {
@@ -33,6 +33,7 @@ const App = () => {
     <div className="main">
       <h1>Transaction</h1>
       <InputExpenses onNewExpense={addNewExpense} />
+      <Expenses allExpenses={expenses} />
     </div>
   );
 };
