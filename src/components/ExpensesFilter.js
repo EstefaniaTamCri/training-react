@@ -1,11 +1,10 @@
-import "./ExpensesFilter.css";
 import { useState, useEffect } from "react";
+import "./ExpensesFilter.css";
 import Wrapper from "./Wrappers/Wrapper";
 import { monthToString } from "../utils/monthToString";
 
-const ExpensesFilter = (props) => {
+function ExpensesFilter(props) {
   const [month, setMonth] = useState("");
-
   const handleSelect = (e) => {
     setMonth(e.target.value);
     props.onFilter(e.target.value);
@@ -15,6 +14,7 @@ const ExpensesFilter = (props) => {
     let currentMonth = monthToString(new Date(Date.now()).toLocaleDateString());
     setMonth(currentMonth);
   }, []);
+
   return (
     <Wrapper
       content={
@@ -39,8 +39,9 @@ const ExpensesFilter = (props) => {
               </div>
             </div>
           </div>
+
           <form>
-            <select name="month" value={month} onChange={handleSelect}>
+            <select name="month" onChange={handleSelect} value={month}>
               <option value="January">January</option>
               <option value="February">February</option>
               <option value="March">March</option>
@@ -59,6 +60,6 @@ const ExpensesFilter = (props) => {
       }
     />
   );
-};
+}
 
 export default ExpensesFilter;
