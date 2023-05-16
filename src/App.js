@@ -1,16 +1,13 @@
-import "./App.css"
-import Title from "./components/HeaderTitle"
-import Paragraph from "./components/FillerParagraph"
+import classes from "./App.module.css";
 
-const App = () => {
+const App = (props) => {
   return (
-    <div className="main">
-      <Title />
-      <Paragraph />
-      <Paragraph />
-      <Paragraph />
-
-    </div>
+    <section className={`${classes.header} ${props.dark && classes.darkTheme}`}>
+      <h1 className= {classes.sky}>Hello World</h1>
+      <p className= {classes.featured}>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, cumque.
+      </p>
+    </section>
   );
 };
 
