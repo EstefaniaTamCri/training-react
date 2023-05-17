@@ -9,7 +9,7 @@ const TasksInput = (props) => {
           <h2>Post a Task</h2>
         </label>
         <input type="text" id="new-task" />
-        <SubmitButton />
+        <SubmitButton type="subit" >Save </SubmitButton>
       </div>
     </form>
   );
