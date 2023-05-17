@@ -1,17 +1,10 @@
-import "./App.css"
-import Title from "./components/HeaderTitle"
-import Paragraph from "./components/FillerParagraph"
+// import './App.css';
+import LoginPage from './views/Login/LoginPage';
 
-const App = () => {
-  return (
-    <div className="main">
-      <Title />
-      <Paragraph />
-      <Paragraph />
-      <Paragraph />
-
-    </div>
+function App() {
+  return (      
+      <LoginPage />
   );
-};
+}
 
 export default App;
