@@ -1,50 +1,27 @@
 // import Counter from "./components/Counter/Counter";
-// import Todo from "./components/Todo/Todo";
+import Todo from "./components/Todo/Todo";
+import { TaskProvider } from "./Context/TaskContext";
 // import ContextExample from "./components/ContextExample/ContextExample";
 // import Level1 from "./components/ContextExample/Level1";
 // import Level2 from "./components/ContextExample/Level2";
 // import { createContext } from "react";
 // import { ThemeProvider } from "./Context/ThemeContext";
 // import Button from "./components/Button/Button";
-import { createContext } from "react";
-import Toolbar from "./components/Toolbar/Toolbar";
+
+// import Toolbar from "./components/Toolbar/Toolbar";
+// import { SwitchThemeProvider } from "./Context/SwitchThemeContext";
 
 // export const MyContext = createContext(null);
 
-const initialState = {
-  light: {
-    textColor: "#000",
-    bgColor: "#f6f8fa",
-  },
-  dark: {
-    textColor: "#fff",
-    bgColor: "#222",
-  },
-};
 
-const actions = {
-  LIGHT: "LIGHT",
-  DARK: "DARK",
-};
-
-const reducer = (state, payload) => {
-  switch (payload.type) {
-    case actions.LIGHT:
-      return (state = initialState.light);
-    case actions.DARK:
-      return (state = initialState.dark);
-    default:
-      throw new Error();
-  }
-};
-
-export const SwitchThemeContext = createContext(initialState);
 
 const App = () => {
   // const [state, setState] = useState(0);
   return (
-    /* <Counter /> 
-    <Todo />  */
+    /* <Counter /> */
+    <TaskProvider>
+    <Todo />
+    </TaskProvider>
 
     // <MyContext.Provider value={{saludo: "hola", dia:18}}>
     // <ContextExample/>
@@ -62,20 +39,18 @@ const App = () => {
     //   <Level2 />
     //   </MyContext.Provider>
     // </div>
-    <div
-      style={{
-        padding: "1em",
-      }}
-    >
-      {/* <ThemeProvider>
-      <Button />
-    </ThemeProvider> */}
-      <SwitchThemeContext.Provider
-        value={{initialState, reducer, actions}}
-      >
-        <Toolbar />
-      </SwitchThemeContext.Provider>
-    </div>
+    // <div
+    //   style={{
+    //     padding: "1em",
+    //   }}
+    // >
+    //   <ThemeProvider>
+    //   <Button />
+    // </ThemeProvider>
+    //   <SwitchThemeProvider>
+    //     <Toolbar />
+    //   </SwitchThemeProvider>
+    // </div>
   );
 };
 
