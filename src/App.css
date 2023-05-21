@@ -1,5 +1,7 @@
-.main {
-  width: 100vw;
-  height: 100vw;
-  background-color: var(--dark);
+main, header {
+  padding:2em 1em;
+  background-color: var(--green);
+}
+main{
+  background-color: var(--grey);
 }
