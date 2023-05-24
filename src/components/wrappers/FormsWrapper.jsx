@@ -5,11 +5,11 @@ const FormsWrapper = () => {
     <section
       style={{
         backgroundColor: "#ffaaaa",
-        padding: "1rem",
         borderRadius: "0.3rem",
+        padding: "1rem",
       }}
     >
-      <Outlet  context={"Hello World!"}/>
+      <Outlet context={"Hello World"} />
     </section>
   );
 };

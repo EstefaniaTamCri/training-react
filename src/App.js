@@ -1,7 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/layout/Navigation/NavBar";
-
 import Aside from "./components/layout/Navigation/Aside";
 import MainRoutes from "./components/layout/Navigation/MainRoutes";
 

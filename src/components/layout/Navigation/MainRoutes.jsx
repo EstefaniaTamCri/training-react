@@ -7,24 +7,47 @@ import Contact from "../../../views/Contact";
 import Survey from "../../../views/Survey";
 import NotFound from "../../../views/NotFound";
 
-const MainRoutes = () => {
+function MainRoutes() {
   const myRoutes = useRoutes([
-    { path: "/", element: <Home /> },
+    {
+      path: "/",
+      element: <Home />,
+    },
     {
       path: "/blog",
       element: <Blog />,
-      children: [{ path: ":id", element: <Blog /> }],
+      children: [
+        {
+          path: ":id",
+          element: <Blog />,
+        },
+      ],
     },
-    { path: "/about/*", element: <AboutRoutes /> },
+
+    {
+      path: "/about/*",
+      element: <AboutRoutes />,
+    },
     {
       element: <FormsWrapper />,
       children: [
-        { path: "/contact", element: <Contact /> },
-        { path: "/survey", element: <Survey /> },
+        {
+          path: "/contact",
+          element: <Contact />,
+        },
+        {
+          path: "/survey",
+          element: <Survey />,
+        },
       ],
     },
-    { path: "*", element: <NotFound /> },
+    {
+      path: "*",
+      element: <NotFound />,
+    },
   ]);
+
   return myRoutes;
-};
+}
+
 export default MainRoutes;
