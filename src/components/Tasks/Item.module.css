@@ -1,0 +1,56 @@
+.task-item {
+  border-bottom: 1px solid #e4e4e4;
+  background-color: #e7e7e7;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  width: 60%;
+  padding: 1em;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+}
+.isDone {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.even {
+  background-color: #FAFAFA;
+}
+.actions {
+  flex-shrink: 1;
+  padding: .7em;
+  border-radius: 50%;
+  content:flex-center '../../index.css';
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+  transition: all 0.2s ease;
+}
+.edit-mode {
+  background-color: #ccc;
+  border-radius: .3rem;
+  color: #000;
+}
+
+.edit {
+  background-color: #4CAF50;
+}
+.edit:hover {
+  background-color: #357a38;
+}
+.delete {
+  background-color: #f44336;
+}
+.delete:hover {
+  background-color: #d32f2f;
+}
+.done {
+  background-color: #2196F3;
+}
+.done:hover {
+  background-color: #1976d2;
+}
